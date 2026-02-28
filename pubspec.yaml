@@ -1,0 +1,49 @@
+name: flexride_new
+description: "FlexRide App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # FIREBASE
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+
+  #  SUPABASE
+  supabase_flutter: ^2.5.6
+
+  #  UTILS
+  file_picker: ^8.0.0
+  intl: ^0.19.0
+  url_launcher: ^6.2.5
+  flutter_cached_pdfview: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/two_wheelers/
+    - assets/four_wheelers/
+    - assets/payment_icons/
+
+# Launcher icons config
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
