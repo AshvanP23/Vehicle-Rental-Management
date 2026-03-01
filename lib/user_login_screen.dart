@@ -20,7 +20,7 @@ class _UserLoginScreenState extends State<UserLoginScreen> {
   bool _isLoading = false;
   bool _isObscure = true;
 
-  final String adminUid = "DYVRvvXrozeKJ6HKjWOT4fI1H7I2";
+  final String adminUid = "YOUR ADMIN ID";
 
   Route _smoothRoute(Widget page) {
     return PageRouteBuilder(
