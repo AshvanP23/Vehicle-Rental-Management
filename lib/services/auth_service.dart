@@ -10,7 +10,7 @@ class AuthService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseStorage _storage = FirebaseStorage.instance;
 
-  final String adminUid = "DYVRvvXrozeKJ6HKjWOT4fI1H7I2";
+  final String adminUid = "YOUR ADMIN ID";
 
   Future<User?> loginUser(String email, String password) async {
     try {
