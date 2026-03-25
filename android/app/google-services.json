@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "657028442844",
+    "project_id": "vehicle-rental-app-firebase",
+    "storage_bucket": "vehicle-rental-app-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657028442844:android:4131daa0f595fd5c7a2219",
+        "android_client_info": {
+          "package_name": "com.example.flexride_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Qgr4vNPFP3bso4Dv7b3xSYXanaUw-z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657028442844:android:62f0832e53ae0f657a2219",
+        "android_client_info": {
+          "package_name": "com.example.vehicle_rental_app_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Qgr4vNPFP3bso4Dv7b3xSYXanaUw-z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
